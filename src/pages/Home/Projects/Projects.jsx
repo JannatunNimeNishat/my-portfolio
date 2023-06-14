@@ -2,7 +2,6 @@
 import p1 from '../../../assets/projects/p1.png'
 import p2 from '../../../assets/projects/p2.png'
 import p3 from '../../../assets/projects/p3.png'
-import p4 from '../../../assets/projects/p4.png'
 import { FaGithub } from "react-icons/fa";
 import { VscLiveShare } from "react-icons/vsc";
 import { FiFolder } from "react-icons/fi";
