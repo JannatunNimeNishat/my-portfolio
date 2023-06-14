@@ -1,14 +1,14 @@
+import Button from "../../../../../components/Button/Button";
 
 
 const Navbar = () => {
 
     const navItems = <>
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Education</a></li>
-      
-        <li><a>Projects</a></li>
-        <li><a>Contact</a></li>
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education" >Education</a></li>
+        <li><a href="#projects" >Projects</a></li>
+        <li><a href="#contact" >Contact</a></li>
         
 
     </>
@@ -34,8 +34,9 @@ const Navbar = () => {
                         {navItems}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Resume</a>
+            <div className="navbar-end"  onClick={() => {window.open("https://drive.google.com/file/d/1m4-imPm8TCPHA2D8_Xn8LotlZeYCXgug/view", "_blank");}}>
+                {/* <a className="btn ">Resume</a> */}
+                <Button btn_text='Resume'></Button>
             </div>
         </div>
     );

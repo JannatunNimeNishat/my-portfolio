@@ -2,7 +2,7 @@
 
 const Education = () => {
     return (
-        <div className="bg-[#313741] text-white pt-10">
+        <div className="bg-[#313741] text-white pt-10" id="education">
             <div className="px-20 py-16">
                 <h3 className="text-5xl capitalize my-text">Eduction</h3>
                 <div className="space-y-1 mt-10">

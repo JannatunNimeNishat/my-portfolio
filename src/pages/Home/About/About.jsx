@@ -5,7 +5,7 @@ import a3 from '../../../assets/about/a3.jpg'
 import Button from '../../../components/Button/Button';
 const About = () => {
     return (
-        <div className="bg-black text-white pt-20 ">
+        <div className="bg-black text-white pt-20 " id='about'>
             <div className="px-28 py-28 grid grid-cols-6 gap-5">
                 <div className='col-span-2 '>
                     <img src={a3} alt="" />

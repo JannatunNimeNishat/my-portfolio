@@ -1,7 +1,7 @@
 
 const Contact = () => {
     return (
-        <div className="bg-[#313741] text-white pt-10">
+        <div className="bg-[#313741]  pt-10" id="contact">
             <h3 className="text-4xl capitalize my-text text-center mt-20">Contact with me</h3>
             <div className="px-52 py-16">
                 <form className="space-y-3">
@@ -10,7 +10,7 @@ const Contact = () => {
                         <label className="label ">
                             <span className="label-text text-white">Name</span>
                         </label>
-                        <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-full" />
+                        <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-full " />
                     </div>
                     {/* name */}
                     <div className="form-control w-full max-w-full ">

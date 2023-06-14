@@ -7,7 +7,7 @@ import { VscLiveShare } from "react-icons/vsc";
 import { FiFolder } from "react-icons/fi";
 const Projects = () => {
     return (
-        <div className="bg-black text-white pt-10 ">
+        <div className="bg-black text-white pt-10 " id='projects'>
             <div className="px-20 py-16">
                 <h3 className="text-5xl capitalize my-text">Projects</h3>
                 {/* 1st */}
