@@ -1,7 +1,7 @@
 
 const Contact = () => {
     return (
-        <div className="bg-[#313741]  pt-10" id="contact">
+        <div className="bg-[#22252c]  pt-10" id="contact">
             <h3 className="text-4xl capitalize my-text text-center mt-20">Contact with me</h3>
             <div className="px-52 py-16">
                 <form className="space-y-3">
