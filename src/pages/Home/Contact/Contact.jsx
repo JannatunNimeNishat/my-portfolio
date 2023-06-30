@@ -1,6 +1,14 @@
 import emailjs from '@emailjs/browser';
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Contact = () => {
+
+    useEffect(() => {
+        AOS.init();
+      }, [])
 
     const form = useRef();
 
@@ -23,7 +31,8 @@ const Contact = () => {
             <h3 className="text-4xl capitalize my-text text-center mt-20">Contact with me</h3>
             <div className="px-5 lg:px-52 py-5 lg:py-16">
 
-                <form className="space-y-3" ref={form} onSubmit={sendEmail}>
+                <form className="space-y-3" ref={form} onSubmit={sendEmail} data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
                     {/* name */}
                     <div className="form-control w-full max-w-full ">
                         <label className="label ">

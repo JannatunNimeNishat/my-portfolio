@@ -1,18 +1,25 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Skills = () => {
-
+    useEffect(() => {
+        AOS.init();
+      }, [])
     const [openTab, setOpenTab] = useState(1);
 
 
     return (
-        <div className="bg-[#22252c] text-white py-20 lg:h-[100vh]" id="skill">
-            <div className="px-10 lg:px-20 py-5">
+        <div className="bg-[#22252c] text-white py-20 lg:h-[100vh]" id="skill" >
+            <div className="px-10 lg:px-20 py-5" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
                 <h3 className="text-5xl capitalize my-text">Skills</h3>
 
 
                 <>
-                    <div className="flex flex-wrap mt-14">
+                    <div className="flex flex-wrap mt-14" >
                         <div className="w-full">
                             <ul
                                 className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"

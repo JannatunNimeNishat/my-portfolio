@@ -1,14 +1,25 @@
 
-/* import a1 from '../../../assets/about/a1.jpg'
-import a2 from '../../../assets/about/a2.jpg' */
+import { useEffect } from 'react';
 import a3 from '../../../assets/about/a3.jpg'
 import Button from '../../../components/Button/Button';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 const About = () => {
+
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
+
     return (
         // <div className="bg-black text-white py-16 " id='about'>
-        <div className="bg-[#22252c] text-white py-5 lg:py-16 " id='about'>
+        <div className="bg-[#22252c] text-white py-5 lg:py-16 " id='about' >
 
-            <div className=" px-5 lg:px-28 py-8 lg:py-28 grid grid-cols-1 lg:grid-cols-6 gap-5">
+            <div className=" px-5 lg:px-28 py-8 lg:py-28 grid grid-cols-1 lg:grid-cols-6 gap-5" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
                 <div className='lg:col-span-2 '>
                     <img src={a3} alt="" />
                 </div>

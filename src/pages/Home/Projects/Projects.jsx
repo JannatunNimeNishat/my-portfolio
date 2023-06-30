@@ -5,15 +5,25 @@ import p3 from '../../../assets/projects/p3.png'
 import { FaGithub } from "react-icons/fa";
 import { VscLiveShare } from "react-icons/vsc";
 import { FiFolder } from "react-icons/fi";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Projects = () => {
 
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
     return (
-        <div className="bg-[#313741] text-white py-12  " id='projects'>
+        <div className="bg-[#313741] text-white py-12  " id='projects' >
             <div className=" px-5 lg:px-20 py-8 lg:py-16">
 
                 <h3 className="text-5xl capitalize my-text">Projects</h3>
 
-                <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16' data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
                     {/* 1st */}
                     <div className='bg-[#22252c] py-7 px-7 rounded-lg '>
                         <div>
@@ -82,7 +92,8 @@ const Projects = () => {
 
 
                 <h3 className="text-4xl capitalize my-text text-center mt-36">Other Noteworthy Projects</h3>
-                <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16' data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
                     {/* 1st */}
                     <div className='bg-[#22252c] py-7 px-7 rounded-lg'>
                         <div className='flex gap-5 justify-between '>
