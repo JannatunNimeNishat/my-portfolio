@@ -6,8 +6,8 @@ const Skills = () => {
 
 
     return (
-        <div className="bg-[#22252c] text-white py-20 h-[100vh]" id="skill">
-            <div className="px-20 py-5">
+        <div className="bg-[#22252c] text-white py-20 lg:h-[100vh]" id="skill">
+            <div className="px-10 lg:px-20 py-5">
                 <h3 className="text-5xl capitalize my-text">Skills</h3>
 
 
@@ -84,7 +84,7 @@ const Skills = () => {
 
 
                                         <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                                            <div className="grid grid-cols-2 gap-x-20 gap-y-5 mt-3">
+                                            <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-20 gap-y-5 mt-3">
                                                 <div>
                                                     <h3>HTML 5</h3>
                                                     <progress className="progress progress-info bg-black  w-full" value={85} max="100"></progress>
@@ -111,7 +111,7 @@ const Skills = () => {
 
 
                                         <div className={openTab === 2 ? "block" : "hidden"} id="link2">
-                                            <div className="grid grid-cols-2 gap-x-20 gap-y-5 mt-3">
+                                            <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-20 gap-y-5 mt-3">
                                                 <div>
                                                     <h3>NodeJs</h3>
                                                     <progress className="progress progress-info bg-black  w-full" value={75} max="100"></progress>
@@ -128,7 +128,7 @@ const Skills = () => {
                                             </div>
                                         </div>
                                         <div className={openTab === 3 ? "block" : "hidden"} id="link3">
-                                            <div className="grid grid-cols-2 gap-x-20 gap-y-5 mt-3">
+                                            <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-20 gap-y-5 mt-3">
                                                 <div>
                                                     <h3>MySql</h3>
                                                     <progress className="progress progress-info bg-black  w-full" value={75} max="100"></progress>

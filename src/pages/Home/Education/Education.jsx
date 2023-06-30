@@ -2,8 +2,8 @@
 
 const Education = () => {
     return (
-        <div className="bg-[#313741] text-white h-[80vh] py-20" id="education">
-            <div className="px-20 py-8">
+        <div className="bg-[#313741] text-white lg:h-[80vh] py-10 lg:py-20" id="education">
+            <div className="px-5 lg:px-20 py-8">
                 <h3 className="text-5xl capitalize my-text">Eduction</h3>
                 <div className="space-y-3 mt-12">
                     <h4 className="text-2xl font-semibold">Bachelor of Science, Computer Science and Engineering</h4>

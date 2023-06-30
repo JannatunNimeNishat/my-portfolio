@@ -9,11 +9,11 @@ const Projects = () => {
 
     return (
         <div className="bg-[#313741] text-white py-12  " id='projects'>
-            <div className="px-20 py-16">
+            <div className=" px-5 lg:px-20 py-8 lg:py-16">
 
                 <h3 className="text-5xl capitalize my-text">Projects</h3>
 
-                <div className='grid grid-cols-3 gap-8 mt-16'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16'>
                     {/* 1st */}
                     <div className='bg-[#22252c] py-7 px-7 rounded-lg '>
                         <div>
@@ -77,23 +77,12 @@ const Projects = () => {
                     </div>
 
 
-                   
-
                 </div>
 
 
 
-
-
-
-
-
-
-                
-
-
                 <h3 className="text-4xl capitalize my-text text-center mt-36">Other Noteworthy Projects</h3>
-                <div className='grid grid-cols-3 gap-8 mt-16'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16'>
                     {/* 1st */}
                     <div className='bg-[#22252c] py-7 px-7 rounded-lg'>
                         <div className='flex gap-5 justify-between '>

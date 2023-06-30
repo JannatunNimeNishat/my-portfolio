@@ -6,13 +6,14 @@ import Button from '../../../components/Button/Button';
 const About = () => {
     return (
         // <div className="bg-black text-white py-16 " id='about'>
-        <div className="bg-[#22252c] text-white py-16 " id='about'>
-            <div className="px-28 py-28 grid grid-cols-6 gap-5">
-                <div className='col-span-2 '>
+        <div className="bg-[#22252c] text-white py-5 lg:py-16 " id='about'>
+
+            <div className=" px-5 lg:px-28 py-8 lg:py-28 grid grid-cols-1 lg:grid-cols-6 gap-5">
+                <div className='lg:col-span-2 '>
                     <img src={a3} alt="" />
                 </div>
-                <div className='col-span-4 ml-20 w-full '>
-                    <h3 className=' text-5xl capitalize my-text'>about me</h3>
+                <div className='lg:col-span-4 mt-5 lg:mt-0  ml-2 lg:ml-20 w-full '>
+                    <h3 className='text-2xl lg:text-5xl capitalize my-text'>about me</h3>
                     <p className='mt-8'>I am a motivated and aspiring junior Frontend Developer with a strong foundation in frontend technologies. With a keen eye
                         for detail and a passion for creating visually appealing and user-friendly applications. I am eager to contribute my skills to a
                         collaborative team environment. And continuously seeking opportunities to grow and learn.</p>
